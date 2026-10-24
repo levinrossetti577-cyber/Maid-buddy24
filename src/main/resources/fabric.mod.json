@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "maidbuddy",
+  "version": "${version}",
+  "name": "Maid Buddy",
+  "description": "Ein kleiner, schwebender Pixel-Begleiter, der dir folgt. Rein clientseitig – nur du siehst ihn.",
+  "authors": ["You"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/maidbuddy/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.maidbuddy.MaidBuddyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
